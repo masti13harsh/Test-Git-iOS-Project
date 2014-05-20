@@ -21,6 +21,7 @@
 		77B54BF4192B608F0094D3D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B54BD6192B608F0094D3D7 /* UIKit.framework */; };
 		77B54BFC192B608F0094D3D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77B54BFA192B608F0094D3D7 /* InfoPlist.strings */; };
 		77B54BFE192B608F0094D3D7 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B54BFD192B608F0094D3D7 /* Git_TestTests.m */; };
+		77B54C09192B63C10094D3D7 /* HSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B54C08192B63C10094D3D7 /* HSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		77B54BF9192B608F0094D3D7 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		77B54BFB192B608F0094D3D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77B54BFD192B608F0094D3D7 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		77B54C07192B63C10094D3D7 /* HSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSTest.h; sourceTree = "<group>"; };
+		77B54C08192B63C10094D3D7 /* HSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		77B54BC6192B608F0094D3D7 = {
 			isa = PBXGroup;
 			children = (
+				77B54C07192B63C10094D3D7 /* HSTest.h */,
+				77B54C08192B63C10094D3D7 /* HSTest.m */,
 				77B54BD8192B608F0094D3D7 /* Git Test */,
 				77B54BF7192B608F0094D3D7 /* Git TestTests */,
 				77B54BD1192B608F0094D3D7 /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				77B54BE9192B608F0094D3D7 /* HSViewController.m in Sources */,
 				77B54BDF192B608F0094D3D7 /* main.m in Sources */,
+				77B54C09192B63C10094D3D7 /* HSTest.m in Sources */,
 				77B54BE3192B608F0094D3D7 /* HSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
